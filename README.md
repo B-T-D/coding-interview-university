@@ -17,14 +17,12 @@
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
-
 This is meant for **new software engineers** or those switching from
 software/web development to software engineering (where computer science knowledge is required). If you have
 many years of experience and are claiming many years of software engineering experience, expect a harder interview.
 
-If you have many years of software/web development experience, note that large software companies like Google, Amazon,
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
+Note that large software companies like Google, Amazon, Facebook and Microsoft view software engineering as different 
+from software/web development, and they require computer science knowledge.
 
 If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
 
@@ -230,30 +228,9 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 
 ## Pick One Language for the Interview
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
-
-- C++
-- Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
-
-- JavaScript
-- Ruby
-
-Here is an article I wrote about choosing a language for the interview: [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
-
-You need to be very comfortable in the language and be knowledgeable.
-
-Read more about choices:
-- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
-- http://blog.codingforinterviews.com/best-programming-language-jobs/
-
-[See language resources here](programming-language-resources.md)
-
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
-
-## Book List
+## Book List and Reference Resources
 
 This is a shorter list than what I used. This is abbreviated to save you time.
 
@@ -270,8 +247,7 @@ This is a shorter list than what I used. This is abbreviated to save you time.
 
 Choose one:
 
-- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-- [ ] [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
+- [X] [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
 - [ ] Elements of Programming Interviews (Java version)
     - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
     - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
@@ -290,19 +266,28 @@ If you read through one of these, you should have all the data structures and al
 
 OR:
 
-- [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - by Goodrich, Tamassia, Goldwasser
-    - used as optional text for CS intro course at UC Berkeley
-    - see my book report on the Python version below. This book covers the same topics.
+### C
+
+- [ ] [The C Programming Language, Second Edtition, Brian W. Kernigan and Dennis M. Ritchie](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)   ("KRC")
+        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
+            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
+        - [answers to questions](https://github.com/lekkas/c-algorithms)
+- [ ] [Data Structures Using C, Second Edition, Reema Tharaja](https://www.amazon.com/Data-Structures-Using-Reema-Thareja/dp/0198099304/) ("DSUC")
 
 ### Python
 
-- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+- [X] [Discovering Computer Science: Interdisciplinary Problems, Principles, and Python Programming, Jessen Havill](https://www.amazon.com/Discovering-Computer-Science-Interdisciplinary-Programming/dp/148225414X/) ("DCS")
+
+- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/) ("DSAP")
     - by Goodrich, Tamassia, Goldwasser
     - I loved this book. It covered everything and more.
     - Pythonic code
     - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
+### CPython Source Code
+
+- Builtin functions: [Python / bltinmodule.c](https://github.com/python/cpython/blob/master/Python/bltinmodule.c)
+- List object implementation: [Objects / listobject.c](https://github.com/python/cpython/blob/master/Objects/listobject.c)
 
 ## Before you Get Started
 
@@ -379,11 +364,8 @@ Some subjects take one day, and some will take multiple days. Some are just lear
 
 Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
 - C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
 - Python - using built-in types (to keep practicing Python)
 - and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
 
 You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
 
@@ -405,12 +387,13 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 ## Prerequisite Knowledge
 
+- Computer science overview using Python examples
+    - [X] DSC CH1 through CH13 -- most exercises, but not projects
+
 - [X] **Learn C**
     - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
-    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - [answers to questions](https://github.com/lekkas/c-algorithms)
+    - [X] KRC CH1 through CH4 -- basic syntax
+    
 
 - [X] **How computers process a program:**
     - [X] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
@@ -424,7 +407,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - Nothing to implement
 - There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
 - If some of the lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge.
-- [ ] DSAP CH3 Algorithm Analysis
+- [X] DSAP CH3 Algorithm Analysis
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
@@ -441,11 +424,20 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - [ ] TopCoder (includes recurrence relations and master theorem):
     - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
     - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
-- [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- [X] [Cheat sheet](http://bigocheatsheet.com/)
+- [X] [Other cheat sheet](https://cooervo.github.io/Algorithms-DataStructures-BigONotation/index.html)
 
 ## Data Structures
 
 - ### Arrays
+    - [ ] KRC CH5, Pointers and Arrays
+    - [ ] KRC CH6, Structures
+    - [ ] DSCU CH3, Arrays -- "Programming Examples" p. 72++
+    - [ ] DSAP CH5, Array-Based Sequences
+    - [ ] Leetcode "Arrays 101" mini practice problems (https://leetcode.com/explore/featured/card/fun-with-arrays/521/introduction/)
+    - [ ] LeetCode diagnostic --  Easy array problems:
+        - [ ] https://leetcode.com/problems/decompress-run-length-encoded-list/
+        - [ ] https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
     - Implement an automatically resizing vector.
     - [ ] Description:
         - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
@@ -483,6 +475,10 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
 
 - ### Linked Lists
+    - [ ] DSUC CH6, Linked Lists
+    - [ ] DSAP CH7, Linked Lists
+    - [ ] LeetCode "Linked List" mini practice problems (https://leetcode.com/explore/learn/card/linked-list/)
+    - [ ] LeetCode diagnostic -- 1x Easy python3 problem from "linked list" tag
     - [ ] Description:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
@@ -517,11 +513,16 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - No need to implement
 
 - ### Stack
+    - [ ] DSAP CH6.1, Stacks
+    - [ ] DSUC CH7, Stacks -- if C implementation seems helpful to learning
     - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
     - [ ] Will not implement. Implementing with array is trivial.
 
 - ### Queue
+    - [ ] DSAP CH6.2, Queues
+    - [ ] DSAP CH6.3, Double-Ended Queues
+    - [ ] DSUC CH8, Queues -- if C implementation seems helpful to learning
     - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
@@ -543,6 +544,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - empty: O(1) (linked list and array)
 
 - ### Hash table
+    - [ ] DSAP CH10 through 10.2 only, Maps and Dictionaries + Hash Tables
+    - [ ] DSC Project 13.2, "Economic mobility" -- Chaining to handle hash collisions.
+    - [ ] DSAP rest of CH10, Sorted Maps, Skip Lists, Sets-Multisets-Multimaps
     - [ ] Videos:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
