@@ -430,10 +430,11 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 ## Data Structures
 
 - ### Arrays
-    - [ ] KRC CH5, Pointers and Arrays
-    - [ ] KRC CH6, Structures
+    - [X] KRC CH5, Pointers and Arrays
+    - [X] KRC CH6, Structures
     - [ ] DSCU CH3, Arrays -- "Programming Examples" p. 72++
     - [ ] DSAP CH5, Array-Based Sequences
+    - [ ] Review cards
     - [ ] Leetcode "Arrays 101" mini practice problems (https://leetcode.com/explore/featured/card/fun-with-arrays/521/introduction/)
     - [ ] LeetCode diagnostic --  Easy array problems:
         - [ ] https://leetcode.com/problems/decompress-run-length-encoded-list/
