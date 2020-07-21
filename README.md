@@ -434,6 +434,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [X] KRC CH6, Structures
     - [ ] DSCU CH3, Arrays -- "Programming Examples" p. 72++
     - [ ] DSAP CH5, Array-Based Sequences
+    - [ ] DSAP CH1.8, Iterators and Generators section
     - [ ] Review cards
     - [ ] Leetcode "Arrays 101" mini practice problems (https://leetcode.com/explore/featured/card/fun-with-arrays/521/introduction/)
     - [ ] LeetCode diagnostic --  Easy array problems:
