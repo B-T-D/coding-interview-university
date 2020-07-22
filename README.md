@@ -479,6 +479,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - ### Linked Lists
     - [ ] DSUC CH6, Linked Lists
     - [ ] DSAP CH7, Linked Lists
+    - [ ] Cracking the Coding Interview CH7, Technical Questions
     - [ ] LeetCode "Linked List" mini practice problems (https://leetcode.com/explore/learn/card/linked-list/)
     - [ ] LeetCode diagnostic -- 1x Easy python3 problem from "linked list" tag
     - [ ] Description:
