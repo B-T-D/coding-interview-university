@@ -1,18 +1,5 @@
 # Coding Interview University
 
-> I originally created this as a short to-do list of study topics for becoming a software engineer,
-> but it grew to the large list you see today. After going through this study plan, [I got hired
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
->
-> I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
->
-> The items listed here will prepare you well for a technical interview at just about any software company,
-> including the giants: Amazon, Facebook, Google, and Microsoft.
->
-> *Best of luck to you!*
-
-
 ## What is it?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
@@ -432,8 +419,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 - ### Arrays
     - [X] KRC CH5, Pointers and Arrays
     - [X] KRC CH6, Structures
-    - [ ] DSCU CH3, Arrays -- "Programming Examples" p. 72++
-    - [ ] DSAP CH5, Array-Based Sequences
+    - [ ] DSUC CH3, Arrays -- "Programming Examples" p. 72++
+    - [X] DSAP CH5, Array-Based Sequences
     - [ ] DSAP CH1.8, Iterators and Generators section
     - [ ] Review cards
     - [ ] Leetcode "Arrays 101" mini practice problems (https://leetcode.com/explore/featured/card/fun-with-arrays/521/introduction/)
@@ -469,15 +456,39 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [ ] resize(new_capacity) // private function
             - when you reach capacity, resize to double the size
             - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+
+- ### Stack
+    - [ ] DSAP CH6.1, Stacks
+    - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
+    - [ ] Will not implement. Implementing with array is trivial.
+
+- ### Queue
+    - [ ] DSAP CH6.2, Queues
+    - [ ] DSAP CH6.3, Double-Ended Queues
+    - [ ] DSUC CH8, Queues -- Walk through an implementation in C
+    - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
+    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+    - [ ] Implement using linked-list, with tail pointer:
+        - enqueue(value) - adds value at position at tail
+        - dequeue() - returns value and removes least recently added element (front)
+        - empty()
+    - [ ] Implement using fixed-sized array:
+        - enqueue(value) - adds item at end of available storage
+        - dequeue() - returns value and removes least recently added element
+        - empty()
+        - full()
+    - [ ] Cost:
+        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
+            because you'd need the next to last element, causing a full traversal each dequeue
+        - enqueue: O(1) (amortized, linked list and array [probing])
+        - dequeue: O(1) (linked list and array)
+        - empty: O(1) (linked list and array)
 
 - ### Linked Lists
-    - [ ] DSUC CH6, Linked Lists
+    - [ ] DSUC CH6, Linked Lists -- Review esp. where not redundant with K&R
     - [ ] DSAP CH7, Linked Lists
     - [ ] Cracking the Coding Interview CH7, Technical Questions
     - [ ] LeetCode "Linked List" mini practice problems (https://leetcode.com/explore/learn/card/linked-list/)
@@ -514,37 +525,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [ ] Doubly-linked List
         - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - No need to implement
-
-- ### Stack
-    - [ ] DSAP CH6.1, Stacks
-    - [ ] DSUC CH7, Stacks -- if C implementation seems helpful to learning
-    - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
-    - [ ] Will not implement. Implementing with array is trivial.
-
-- ### Queue
-    - [ ] DSAP CH6.2, Queues
-    - [ ] DSAP CH6.3, Double-Ended Queues
-    - [ ] DSUC CH8, Queues -- if C implementation seems helpful to learning
-    - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
-    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
-        - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
-        - empty()
-        - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
 
 - ### Hash table
     - [ ] DSAP CH10 through 10.2 only, Maps and Dictionaries + Hash Tables
