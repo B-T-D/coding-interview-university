@@ -36,6 +36,7 @@ If you want to be a reliability engineer or operations engineer, study more from
     - [Queue](#queue)
     - [Linked Lists](#linked-lists)
     - [Trees](#trees)
+    - [Heaps](#heaps)
     - [Hash table](#hash-table)
 - [More Knowledge](#more-knowledge)
     - [Binary search](#binary-search)
@@ -530,6 +531,9 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Trees
     - [ ] DSAP CH8
+    
+- ### Heaps
+    - [ ] DSAP CH9
 
 - ### Hash table
     - [ ] DSAP CH10 through 10.2 only, Maps and Dictionaries + Hash Tables
