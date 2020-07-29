@@ -458,14 +458,14 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
             - when popping an item, if size is 1/4 of capacity, resize to half
 
 - ### Stack
-    - [ ] DSAP CH6.1, Stacks
+    - [X] DSAP CH6.1, Stacks
     - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
     - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
     - [ ] Will not implement. Implementing with array is trivial.
 
 - ### Queue
-    - [ ] DSAP CH6.2, Queues
-    - [ ] DSAP CH6.3, Double-Ended Queues
+    - [X] DSAP CH6.2, Queues
+    - [X] DSAP CH6.3, Double-Ended Queues
     - [ ] DSUC CH8, Queues -- Walk through an implementation in C
     - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
@@ -489,8 +489,8 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 - ### Linked Lists
     - [ ] DSUC CH6, Linked Lists -- Review esp. where not redundant with K&R
-    - [ ] DSAP CH7, Linked Lists
-    - [ ] Cracking the Coding Interview CH7, Technical Questions
+    - [X] DSAP CH7, Linked Lists
+    - [X] Cracking the Coding Interview CH7, Technical Questions
     - [ ] LeetCode "Linked List" mini practice problems (https://leetcode.com/explore/learn/card/linked-list/)
     - [ ] LeetCode diagnostic -- 1x Easy python3 problem from "linked list" tag
     - [ ] Description:
