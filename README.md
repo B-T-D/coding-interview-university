@@ -232,20 +232,6 @@ Choose one:
     - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
     - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
-### Language Specific
-
-**You need to choose a language for the interview (see above).**
-
-Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
-
-If you read through one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
-
-[Additional language-specific resources here.](programming-language-resources.md)
-
-
-OR:
-
 ### Discrete Mathematics
 
 - [ ] [Concrete Mathematics: A Foundation for Computer Science, Second Edition, Ronald L. Graham, Donald E. Knuth and Oren Patashnik](https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025/)
