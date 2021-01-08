@@ -246,6 +246,14 @@ If you read through one of these, you should have all the data structures and al
 
 OR:
 
+### Discrete Mathematics
+
+- [ ] [Concrete Mathematics: A Foundation for Computer Science, Second Edition, Ronald L. Graham, Donald E. Knuth and Oren Patashnik](https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025/)
+
+### Algorithms
+
+- [ ] [Algorithms, Jeff Erickson](https://jeffe.cs.illinois.edu/teaching/algorithms/)
+
 ### C
 
 - [ ] [The C Programming Language, Second Edtition, Brian W. Kernigan and Dennis M. Ritchie](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)   ("KRC")
