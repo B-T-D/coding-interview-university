@@ -2,16 +2,7 @@
 
 ## What is it?
 
-This is my multi-month study plan for going from web developer (no CS degree) to software engineer.
-
-This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
-
-Note that large software companies like Google, Amazon, Facebook and Microsoft view software engineering as different 
-from software/web development, and they require computer science knowledge.
-
-If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
+This is my multi-month study plan for going from lawyer (no CS degree) to software engineer.
 
 ---
 
