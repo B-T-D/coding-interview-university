@@ -242,15 +242,18 @@ Choose one:
 - Django source code [repo](https://github.com/django/django) -- searching this repo is often the fastest way to answer a Django question.
 - Django React Framework source code [repo](https://github.com/encode/django-rest-framework)
 
+##### JSON Web Token authentication in a Django-React project
+I implemented my flashcards website's user authentication with JWT, since it seemed like a good chance to play with "production" JWT in a low-risk environment. 
+- Detailed walkthrough [article](https://hackernoon.com/110percent-complete-jwt-authentication-with-django-and-react-2020-iejq34ta) by Stuart Leitch.
+- [repo](https://github.com/Toruitas/Complete-JWT-Authentication) accompanying the article.
+
 #### JavaScript and ReactJS
 - [X] Codecademy "Learn JavaScript"
 - [X] Codecademy "Learn React"
 - [X] Codecademy "Learn React.js: Part II"
 - [X] [Pure React, Dave Ceddia](https://daveceddia.com/pure-react/). A decent React book with a good diversity of projects.
 
-##### JSON Web Token Authentication
-- Detailed walkthrough [article](https://hackernoon.com/110percent-complete-jwt-authentication-with-django-and-react-2020-iejq34ta) by Stuart Leitch.
-- [repo](https://github.com/Toruitas/Complete-JWT-Authentication) accompanying the article.
+
 
 #### SQL
 - [ ] [Practical SQL: A Beginner's Guide to Storytelling with Data](https://www.amazon.com/Practical-SQL-Beginners-Guide-Storytelling/dp/1593278276/)
