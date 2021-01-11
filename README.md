@@ -227,9 +227,8 @@ Choose one:
     - by Goodrich, Tamassia, Goldwasser
     - I loved this book. It covered everything and more.
     - Pythonic code
-    - my glowing book report: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
-### CPython Source Code
+#### CPython Source Code
 
 - Builtin functions: [Python / bltinmodule.c](https://github.com/python/cpython/blob/master/Python/bltinmodule.c)
 - List object implementation: [Objects / listobject.c](https://github.com/python/cpython/blob/master/Objects/listobject.c)
