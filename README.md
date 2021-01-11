@@ -192,15 +192,6 @@ I've mostly used these books for general guidance rather than as a source of pra
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - answers in Java
 
-### If you have tons of extra time:
-
-Choose one:
-
-
-- [ ] Elements of Programming Interviews (Java version)
-    - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
-    - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
-
 ### Discrete Mathematics
 
 - [ ] [Concrete Mathematics: A Foundation for Computer Science, Second Edition, Ronald L. Graham, Donald E. Knuth and Oren Patashnik](https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025/)
@@ -219,6 +210,8 @@ Choose one:
 - [ ] [Data Structures Using C, Second Edition, Reema Tharaja](https://www.amazon.com/Data-Structures-Using-Reema-Thareja/dp/0198099304/) ("DSUC")
 
 ### Python
+
+- [X] [Python Crash Course, 2nd Edition: A Hands-On, Project-Based Introduction to Programming, Eric Matthes](https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/). The very first book I used when I started from absolute scratch--it was very good in the context of never having programmed before.
 
 - [X] [Discovering Computer Science: Interdisciplinary Problems, Principles, and Python Programming, Jessen Havill](https://www.amazon.com/Discovering-Computer-Science-Interdisciplinary-Programming/dp/148225414X/) ("DCS")
 
