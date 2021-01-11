@@ -229,9 +229,29 @@ Choose one:
     - Pythonic code
 
 #### CPython Source Code
-
 - Builtin functions: [Python / bltinmodule.c](https://github.com/python/cpython/blob/master/Python/bltinmodule.c)
 - List object implementation: [Objects / listobject.c](https://github.com/python/cpython/blob/master/Objects/listobject.c)
+
+### Tech-stack books, courses, and tutorials
+#### Django
+- [X] [Django for Beginners: Build Websites with Python and Django, William S. Vincent](https://www.amazon.com/Django-Beginners-Build-Websites-Python/dp/1735467200/)
+    - I highly recommend all of Will Vincent's Django materials. Each of his books has a corresponding repo that (as of January 2021), he continually updates as the Django community evolves.
+- [X] [Django for Professionals: Production Websites with Python & Django, William S. Vincent](https://www.amazon.com/Django-Professionals-Production-websites-Python/dp/1735467235/)
+- [X] [Django for APIs: Build Web APIs with Python & Django, William S. Vincent](https://www.amazon.com/Django-APIs-Build-web-Python/dp/1735467227/)
+- Django source code [repo](https://github.com/django/django) -- searching this repo is often the fastest way to answer a Django question.
+- Django React Framework source code [repo](https://github.com/encode/django-rest-framework)
+
+##### JSON Web Token Authentication
+- Detailed walkthrough [article](https://hackernoon.com/110percent-complete-jwt-authentication-with-django-and-react-2020-iejq34ta) by Stuart Leitch.
+- [repo](https://github.com/Toruitas/Complete-JWT-Authentication) accompanying the article.
+
+#### Tkinter
+- [ ] [Python GUI Programming with Tkinter, Alan D. Moore](https://www.amazon.com/Python-GUI-Programming-Tkinter-applications/dp/1788835883/)
+- Author's [repo](https://github.com/PacktPublishing/Python-GUI-Programming-with-Tkinter) accompanying the book.
+
+#### Machine Learning
+- [ ] [Neural Network Projects with Python, James Loy](https://www.amazon.com/Neural-Network-Projects-Python-ultimate/dp/1789138906/)
+- Author's [repo](https://github.com/PacktPublishing/Neural-Network-Projects-with-Python) accompanying the book.
 
 ## Before you Get Started
 
