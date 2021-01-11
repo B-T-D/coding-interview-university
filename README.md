@@ -2,7 +2,9 @@
 
 ## What is it?
 
-This is my multi-month study plan for going from lawyer (no CS degree) to software engineer.
+This is my multi-month study plan for going from lawyer (no CS degree) to software engineer. As I complete material, I convert the relevant parts of this readme from forward-looking plan to backward-looking reference so that I have an organized list of what I've covered.
+
+If you're looking to create your own plan, I would recommend making your own fork from [jwasham's repo](https://github.com/jwasham/coding-interview-university).
 
 ---
 
