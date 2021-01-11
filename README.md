@@ -186,11 +186,9 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 This is a shorter list than what I used. This is abbreviated to save you time.
 
 ### Interview Prep
+I've mostly used these books for general guidance rather than as a source of practice problems, relying instead on coding-challenge sites for practice problems.
 
-- [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - answers in C++ and Java
-    - this is a good warm-up for Cracking the Coding Interview
-    - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
+- [X] [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
 - [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - answers in Java
 
@@ -198,7 +196,7 @@ This is a shorter list than what I used. This is abbreviated to save you time.
 
 Choose one:
 
-- [X] [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
+
 - [ ] Elements of Programming Interviews (Java version)
     - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
     - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
@@ -252,8 +250,6 @@ I implemented my flashcards website's user authentication with JWT, since it see
 - [X] Codecademy "Learn React"
 - [X] Codecademy "Learn React.js: Part II"
 - [X] [Pure React, Dave Ceddia](https://daveceddia.com/pure-react/). A decent React book with a good diversity of projects.
-
-
 
 #### SQL
 - [ ] [Practical SQL: A Beginner's Guide to Storytelling with Data](https://www.amazon.com/Practical-SQL-Beginners-Guide-Storytelling/dp/1593278276/)
