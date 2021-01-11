@@ -18,7 +18,6 @@ If you're looking to create your own plan, I would recommend making your own for
 - [Pick One Language for the Interview](#pick-one-language-for-the-interview)
 - [Book List](#book-list-and-reference-resources)
 - [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [The Daily Plan](#the-daily-plan)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
@@ -316,14 +315,6 @@ Take a break from programming problems for a half hour and go through your flash
 
 There are a lot of distractions that can take up valuable time. Focus and concentration are hard. Turn on some music 
 without lyrics and you'll be able to focus pretty well.
-
-## What you won't see covered
-
-These are prevalent technologies but not part of this study plan:
-
-- SQL
-- Javascript
-- HTML, CSS, and other front-end technologies
 
 ## The Daily Plan
 
