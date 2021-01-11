@@ -206,6 +206,7 @@ Choose one:
 ### Discrete Mathematics
 
 - [ ] [Concrete Mathematics: A Foundation for Computer Science, Second Edition, Ronald L. Graham, Donald E. Knuth and Oren Patashnik](https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025/)
+- [ ] [MIT OpenCourseWare Mathematics for Computer Science, Spring 2015 version](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/). Personally, I've found pairing the 2015 course textbook pdf with the 2010 lectures works well for me.
 
 ### Algorithms
 
@@ -241,9 +242,19 @@ Choose one:
 - Django source code [repo](https://github.com/django/django) -- searching this repo is often the fastest way to answer a Django question.
 - Django React Framework source code [repo](https://github.com/encode/django-rest-framework)
 
+#### JavaScript and ReactJS
+- [X] Codecademy "Learn JavaScript"
+- [X] Codecademy "Learn React"
+- [X] Codecademy "Learn React.js: Part II"
+- [X] [Pure React, Dave Ceddia](https://daveceddia.com/pure-react/). A decent React book with a good diversity of projects.
+
 ##### JSON Web Token Authentication
 - Detailed walkthrough [article](https://hackernoon.com/110percent-complete-jwt-authentication-with-django-and-react-2020-iejq34ta) by Stuart Leitch.
 - [repo](https://github.com/Toruitas/Complete-JWT-Authentication) accompanying the article.
+
+#### SQL
+- [ ] [Practical SQL: A Beginner's Guide to Storytelling with Data](https://www.amazon.com/Practical-SQL-Beginners-Guide-Storytelling/dp/1593278276/)
+- Author's [repo](https://github.com/anthonydb/practical-sql) accompanying the book.
 
 #### Tkinter
 - [ ] [Python GUI Programming with Tkinter, Alan D. Moore](https://www.amazon.com/Python-GUI-Programming-Tkinter-applications/dp/1788835883/)
