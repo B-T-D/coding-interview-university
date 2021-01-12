@@ -1,4 +1,4 @@
-# Coding Interview University
+# Computer science study plan
 
 ## What is it?
 
